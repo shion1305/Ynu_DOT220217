@@ -1,0 +1,88 @@
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background: #484c57;
+}
+
+.title_block {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0 0 15px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Yuji Mai', serif;
+}
+
+.top_logo {
+    height: 50px;
+    margin: 0 20px 0 0;
+}
+
+.menu_block {
+    margin: 0 auto;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    display: flex;
+    padding: 10px 40px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menu_block > li > a {
+    text-decoration: none;
+}
+
+.menu_item {
+    vertical-align: center;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-underline: none;
+}
+
+.menu_item:hover {
+    background: navy;
+}
+
+.content {
+    align-self: center;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.article_block {
+    margin: 10px 50px;
+    background: white;
+    border-radius: 60px;
+    min-height: 500px;
+    padding: 10px 20px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+
+}
+
+.article_block > h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.article_block > h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+}
+
+.article_block > p {
+    line-height: 35px;
+    font-size: 20px;
+}
